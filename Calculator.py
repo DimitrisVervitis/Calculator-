@@ -1,3 +1,5 @@
+
+import os 
 import math 
 print (30 * '-')
 print('    C A L C U L A T O R')
@@ -33,4 +35,7 @@ else:
     number2=float(input('Enter your first number : '))
     number3=float(input('Enter your second number : '))
     print(number2/number3)
+
+os.system('PAUSE')
+    
     
